@@ -3,3 +3,5 @@ Switched back to main branch and added new text to file 1
 =======
 This is my first file
 >>>>>>> features
+
+This is text that I, Samantha, am adding. 
