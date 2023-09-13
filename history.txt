@@ -1,0 +1,99 @@
+    5  git config --list
+    6  git branch
+    7  cd git_practice
+   14  git log
+   15  git log
+   17  git config --global --unset init.defaultbrach
+   18  git config --list
+   34  mkdir git_practice
+   35  cd git_practice
+   36  git init
+   41  git status
+   42  git add file_1.txt file_2.txt
+   43  git status
+   44  git commit -m "This is my first commit"
+   45  git status
+   46  git log
+   49  git add Readme.md
+   51  git status
+   52  git commit Readme.md
+   53  git commit -m "Readme commit"
+   54  touch .gitignore
+   55  git add .gitignore
+   56  git commit -m "api-keys.txt"
+   58  git status
+   59  git commit -m "api-keys.txt text part 2"
+   60  git add "api-keys.txt"
+   61  git status
+   62  git commit -m "api-keys.txt text part 2 in gitignore file"
+   63  git --help
+   64  git create branch features
+   65  git branch features
+   66  git switch features
+   67  git log 
+   69  git add new_features.txt
+   70  git commit -m "new"
+   71  git status
+   72  git status
+   73  git branch
+   74  git switch main
+   75  git add file_1.txt new_features.txt
+   76  git commit -m "empty file was modified"
+   77  git status
+   78  git switch main
+   79  git status
+   80  git status
+   81  git add file_1.txt
+   82  git commit -m "modified in main branch"
+   83  git merge main features
+   84  git merge features
+   85  git merge abort
+   86  git status
+   87  git add file_1.txt
+   88  git commit -m "file_1.txt edited in features and main"
+   89  git status
+   90  git log
+   91  git log
+  100  cd git 'New folder'/git_practice
+  101  cd 'New folder'/git_practice
+  102  cd 'New folder'/   git_practice
+  103  cd 'New folder'/   git_practice/
+  104  cd git_practice
+  107  git branch
+  108  git switch features
+  109  git log
+  112  cd git_practice
+  116  git log
+  119  cd git_practice
+  120  git pull
+  121  git log --oneline > gitlog.txt
+  122  history | grep git > history.txt
+  123  git add gitlog.txt history.txt
+  124  git commit -m "submission files"
+  125  git status
+  126  git add file_1.txt
+  127  git commit -m "modified file in the fork by Samantha"
+  128  git status
+  129  git push origin
+  130  git pull
+  132  git push
+  133  git fetch
+  134  git branch --all
+  135  git remote -v
+  136  git push -u origin main
+  137  git branch -all
+  138  git branch --all
+  139  git branch -d remotes/origin/feature--bekahwebb
+  140  git merge --abort
+  141  git log --oneline
+  142  git checkout 93bc94f
+  144  git switch -
+  145  git fetch --all
+  146  git remote -v
+  147  git remote set-url origin git@github.com:bekahwebb/git_practice--bekahwebb.git
+  148  git remote -v
+  149  git branch backup-main
+  150  git reset --hard origin/main
+  152  git pull
+  153  git log --oneline > gitlog.txt
+  154  history | grep git > history.txt
